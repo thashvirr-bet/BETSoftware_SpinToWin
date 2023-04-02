@@ -231,11 +231,15 @@ function testWin(){
 	// 	status.innerHTML = "YOU LOSE!!!"
 	// 	lose.play();
 	// }
-	if (((slot1 == slot2 && slot2 == slot3) ||
-		(slot1 == slot2) ||
+
+	if (slot1 == slot2 && slot2 == slot3){
+		status.innerHTML = "YOU WIN BIG!!!!!!!!!!!!!!!!!!!!!!!!";
+		win.play();
+	}
+	else if (((slot1 == slot2) ||
 		(slot1 == slot3) ||
 		(slot2 == slot3))){
-		status.innerHTML = "YOU WIN BIG!";
+		status.innerHTML = "YOU WIN... LOSER!";
 		win.play();
 	}else{
 		status.innerHTML = "YOU LOSE!!!"
