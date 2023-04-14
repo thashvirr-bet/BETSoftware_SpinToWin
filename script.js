@@ -90,16 +90,16 @@ function testWin(){
 	// }
 
 	if (slot1 == slot2 && slot2 == slot3){
-		status.innerHTML = "YOU WIN BIG!!!!!!!!!!!!!!!!!!!!!!!!";
+		status.innerHTML = "Jackpot :D";
 		win.play();
 	}
 	else if (((slot1 == slot2) ||
 		(slot1 == slot3) ||
 		(slot2 == slot3))){
-		status.innerHTML = "YOU WIN... LOSER!";
+		status.innerHTML = "Winner :)";
 		win.play();
 	}else{
-		status.innerHTML = "YOU LOSE!!!"
+		status.innerHTML = "Oops, try again :("
 		lose.play();
 	}
 	doing = false;
