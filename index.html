@@ -21,7 +21,7 @@ body{
 }
 main{
 	border-radius: 5px;
-	background-color: #2a295f;
+	background-color: #2a295f00;
 	margin-top: 30px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -36,14 +36,17 @@ section#status{
 	padding-bottom: 25px;
 	border-radius: 5px;
 	text-align: center;
-	background-color: #169fa9;
+	background-image: url("res/WINNER\ textbox.png");
+	background-size: cover;
 	color: #FFFFFF;
 	font-size: 25px;
 	font-family: 'Poppins', monospace;
 }
 section#Slots{
 	border-radius: 15px;
-	background-color: #FAFAFA;
+	background-image: url("res/Rectangle.png");
+	background-position: center;
+	background-size: cover;
 }
 section#Gira{
 	margin-top: 25px;
@@ -51,7 +54,9 @@ section#Gira{
 	padding-bottom: 25px;
 	border-radius: 5px;
 	text-align: center;
-	background-color: #1176bc;
+	background-image: url("res/SPIN\ button.png");
+	background-size: cover;
+	background-position: bottom;
 	color: #FFFFFF;
 	font-size: 25px;
 }
@@ -91,16 +96,16 @@ section#info{
 	height: 150px;
 }
 .a1{
-	background-image: url("https://betsoftware.com/wp-content/uploads/sites/4/2021/11/Icons-R5-03-2-1024x1024.png");
+	background-image: url("/res/tiles/Adventure.png");
 }
 .a2{
-	background-image: url("https://betsoftware.com/wp-content/uploads/sites/4/2021/09/Value_We-Put-Our-Hands-Up-1024x1024.png");
+	background-image: url("/res/tiles/All-Stars.png");
 }
 .a3{
-	background-image: url("https://betsoftware.com/wp-content/uploads/sites/4/2021/09/Value_We-Dare-To-Be-Ourselves-1024x1024.png");
+	background-image: url("/res/tiles/Dare\ to\ be\ ourselves.png");
 }
 .a4{
-	background-image: url("https://betsoftware.com/wp-content/uploads/sites/4/2021/09/Value_Teamwork-Makes-The-Dream-Work-1009x1024.png");
+	background-image: url("/res/tiles/Dreamwork.png");
 }
 /* .a5{
 	background-image: url("https://betsoftware.com/wp-content/uploads/sites/4/2021/11/Icons-R5-03-2-1024x1024.png");
@@ -113,7 +118,7 @@ section#info{
 } */
 
 .bg-styles{
-	background-image: url('https://img.freepik.com/free-vector/realistic-3d-podium-background_23-2149166921.jpg?w=1060&t=st=1678954109~exp=1678954709~hmac=f9986d9ca44eedb38f74cf4b0c9ee3c0c0e12fc67ef8835e5aeb3b034ccbaee1');
+	background-image: url('/res/bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -134,7 +139,7 @@ section#info{
 			<div id="slot2" class="a1"></div>
 			<div id="slot3" class="a1"></div>
 		</section>
-		<section onclick="doSlot()" id="Gira">TAKE A SPIN!</section>
+		<section onclick="doSlot()" id="Gira">SPIN</section>
 		<!-- <section id="options">
 			<img src="res/icons/audioOn.png" id="audio" class="option" onclick="toggleAudio()" />
 		</section> -->
