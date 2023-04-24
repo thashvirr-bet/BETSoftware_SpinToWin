@@ -1,0 +1,55 @@
+{
+    "success": true,
+    "services": [
+      {
+        "type": "businessfibre",
+        "providers": [
+          {
+            "provider": "dfa",
+            "status": "live",
+            "full_name": "Dark Fibre Africa"
+          }
+        ],
+        "full_name": "Business Fibre"
+      },
+      {
+        "type": "fibre",
+        "providers": [
+          {
+            "provider": "openserve",
+            "status": "live",
+            "full_name": "Openserve"
+          }
+        ],
+        "full_name": "Home Fibre"
+      },
+      {
+        "type": "fixedlte",
+        "providers": [
+          {
+            "provider": "mtn",
+            "status": "live",
+            "data": {},
+            "full_name": "MTN"
+          }
+        ],
+        "full_name": "Fixed LTE"
+      },
+      {
+        "type": "lte",
+        "providers": [
+          {
+            "provider": "telkom",
+            "status": "live",
+            "full_name": "Telkom"
+          }
+        ],
+        "full_name": "LTE"
+      }
+    ]
+  }
+
+  // get length of services. (data.services.length)
+  // run for loop for length of services
+  // for each service, run another for loop for providers of services
+  // display all info per provider

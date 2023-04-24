@@ -25,21 +25,25 @@ main{
 	padding-bottom: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
-	/* margin-left: calc((100% - 580px) / 2); */
-	width: 750px;
+	margin-left: calc((100% - 50vw) / 2);
+	width: 50vw;
 }
 section#status{
-	margin-bottom: 25px;
+	margin-bottom: 1rem;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	border-radius: 5px;
 	text-align: center;
 	background-image: url("res/text-box.png");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 	color: #FFFFFF;
 	font-size: 45px;
 	font-family: 'Righteous', cursive;
-	min-height: 104px;
+	min-height: 8.8vh;
+	max-width: 35vw ;
+	margin-left: calc((100% - 35vw) / 2);
 	align-items: center;
 	display: flex;
 	justify-content: center;
@@ -48,26 +52,29 @@ section#Slots{
 	border-radius:15px;
 	background-image: url("res/rectangle-outline.png");
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
-	min-height: 250px;
-	width: 750px;
+	min-height: 40vh;
+	width: 50vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-section#Gira{
+section#SpinBTN{
 	margin-top: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	border-radius: 5px;
 	text-align: center;
 	background-image: url("res/spin-btn.png");
-	background-size: cover;
-	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 	color: #FFFFFF;
 	font-size: 25px;
-	min-height: 104px;
+	min-height: 68px;
+	width: 30vw;
+	margin-left: calc((100% - 30vw) / 2);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -75,7 +82,7 @@ section#Gira{
 	font-size: 50px;
 }
 
-section#Gira:hover{
+section#SpinBTN:hover{
 	cursor: pointer;
 } 
 
@@ -102,17 +109,42 @@ section#info{
 	margin-right: 30%;
 	display: none;
 }
-#slot1, #slot2, #slot3{
+#slot1{
 	display: inline-block;
-	margin-left: 15px;
-	margin-right: 25px;
-	background-size: 150px;
-	width: 250px;
-	height: 250px;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	background-size: 40vh;
+	width: 30vh;
+	height: 30vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
 }
+
+#slot2{
+	display: inline-block;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	background-size: 40vh;
+	width: 30vh;
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#slot3{
+	display: inline-block;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	background-size: 40vh;
+	width: 30vh;
+	height: 30vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
 .a1{
 	background-image: url("/res/tiles/adventure.png");
 }
